@@ -1,0 +1,6 @@
+.smallcart__container {
+    @apply flex items-center m-2 mt-5 cursor-pointer space-x-4 hover:bg-gray-100 rounded-xl transition transform ease-out;
+}
+.smallcart__img {
+    @apply relative w-16 h-16;
+}

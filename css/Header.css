@@ -1,0 +1,35 @@
+.header__container {
+    @apply sticky top-0 z-50 grid lg:grid-cols-3 md:grid-cols-4 grid-cols-3 bg-white md:px-10 p-5 shadow-md;
+}
+
+.logo {
+    @apply relative;
+    @apply flex;
+    @apply items-center;
+    @apply h-10;
+    @apply cursor-pointer;
+    @apply my-auto;
+}
+
+.search {
+    @apply flex items-center border-2 border-gray-200 rounded-full py-2 shadow-sm lg:col-span-1 md:col-span-2 col-span-1;
+}
+.search__input{
+    @apply bg-transparent flex-grow mx-4 outline-none;
+}
+
+.search__icon {
+    @apply h-8 bg-red-400 text-white p-2 rounded-full cursor-pointer mr-2 md:inline-flex hidden;
+}
+
+.profile {
+    @apply flex items-center justify-end space-x-4 text-gray-500;
+}
+
+.profile__icon{
+    @apply h-6;
+}
+
+.profile__user--icons {
+    @apply flex items-center space-x-2 border-2 rounded-full border-gray-200 p-2 shadow-sm;
+}

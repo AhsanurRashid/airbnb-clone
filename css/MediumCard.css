@@ -1,0 +1,6 @@
+.mediumcard__container {
+    @apply cursor-pointer transform transition duration-300 ease-out;
+}
+.mediumcard__img{
+    @apply relative w-80 h-80;
+} 

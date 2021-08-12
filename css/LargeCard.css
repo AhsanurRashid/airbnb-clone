@@ -1,0 +1,16 @@
+
+.largeCard__container{
+    @apply py-16 relative;
+}
+.largeCard__img {
+    @apply relative h-96 min-w-[300px];
+}
+.largeCard__caption {
+    @apply absolute top-32 left-12;
+}
+.largeCard__caption--title {
+    @apply text-4xl mb-3 w-64 font-semibold;
+}
+.largeCard__caption--btn {
+    @apply text-sm bg-gray-900 text-white px-4 py-2 rounded-lg mt-5 shadow-md hover:shadow-none transform transition ease-out;
+}

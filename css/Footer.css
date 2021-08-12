@@ -1,0 +1,9 @@
+.footer__container {
+    @apply  grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-y-4 max-w-7xl mx-auto sm:px-16 px-8 py-8;
+}
+.footer__title {
+    @apply uppercase font-semibold;
+}
+.footer__subtitle {
+    @apply text-sm text-gray-600;
+}
